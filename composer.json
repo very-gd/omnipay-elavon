@@ -1,0 +1,28 @@
+{
+    "name": "very-gd/omnipay-elavon",
+    "type": "library",
+    "description": "Elavon Remote driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "purchase",
+        "global iris",
+        "remote"
+    ],
+    "homepage": "https://github.com/very-gd/omnipay-elavon",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lewis Phillips"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Omnipay\\Elavon\\" : "src/" }
+    },
+    "require": {
+		"digitickets/omnipay-realex": "^5.0"
+    }
+}
