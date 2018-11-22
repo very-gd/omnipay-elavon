@@ -21,8 +21,5 @@
     ],
     "autoload": {
         "psr-0": { "Omnipay\\Elavon\\" : "src/" }
-    },
-    "require": {
-		"digitickets/omnipay-realex": "^5.0"
     }
 }
